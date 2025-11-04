@@ -1,0 +1,113 @@
+.
+├── CSS-placeholder-text.html
+├── Img-upload-Node-Multer.html
+├── SVG-mask.html
+├── binary-search-tree.html
+├── blog.html
+├── building-a-custom-html5-audio-player-with-javascript.html
+├── cp
+│   ├── Css-placeholder-text-cp.html
+│   ├── D3-vertical-tree.html
+│   ├── Multiple-HTML5-Audio-Players.html
+│   ├── binary-search-tree-anim-cp.html
+│   ├── html5-audio-players.html
+│   ├── interlude-mp3.html
+│   └── using-svg-cp.html
+├── css
+│   └── style.css
+├── cv
+│   ├── index.html
+│   ├── profile.jpg
+│   └── style.css
+├── docs
+│   └── CV.pdf
+├── font
+│   ├── Roboto-Bold.ttf
+│   ├── Roboto-Regular.ttf
+│   ├── fira-mono.bold.otf
+│   ├── fira-mono.regular.otf
+│   ├── fira-sans.bold.ttf
+│   └── fira-sans.medium.ttf
+├── google-analytics-embed-API.html
+├── hugo-site-deployment.html
+├── img
+│   ├── 1-1.webp
+│   ├── Cube-Anim.png
+│   ├── EPs
+│   │   ├── Bas.jpg
+│   │   ├── EDP pochette.jpg
+│   │   ├── Nouvelle note.jpeg
+│   │   ├── Un-Mec-Crazy.jpg
+│   │   ├── Ville-de-l-amour.jpeg
+│   │   ├── edp-cut2.jpeg
+│   │   └── rock-n-roll-red.jpg
+│   ├── TS_rond01-t3.webp
+│   ├── audioPlayer-img
+│   │   ├── audioplayer.png
+│   │   ├── pause.png
+│   │   └── play.png
+│   ├── binary-search-tree
+│   │   ├── dummy-node.png
+│   │   └── single-child.png
+│   ├── kendrick
+│   │   ├── kendrick1.jpeg
+│   │   ├── kendrick2.jpeg
+│   │   └── kendrick3.jpeg
+│   ├── kinect
+│   │   └── kinect.png
+│   ├── listen-and-tell.png
+│   ├── logoblanc01-reduced.jpg
+│   ├── logonoir01_ reduced.jpg
+│   ├── node-blog
+│   │   ├── Purple-Crayon.png
+│   │   ├── purplecrayon-desktop-1.png
+│   │   ├── purplecrayon-desktop-2.png
+│   │   ├── purplecrayon-desktop-3.png
+│   │   ├── purplecrayon-desktop-4.png
+│   │   └── purplecrayon-mobile-1.png
+│   ├── nyc.jpg
+│   ├── personal-brand
+│   │   ├── GDA_maquette-web-02-003.jpg
+│   │   ├── GDA_tuto.jpg
+│   │   └── W_artwork-ensemble02.jpg
+│   ├── personas-site
+│   │   ├── Personas-site.png
+│   │   ├── felix.png
+│   │   ├── home.png
+│   │   ├── management.png
+│   │   ├── metadata.png
+│   │   ├── newpersona.png
+│   │   └── patrick.png
+│   └── photoEditApp
+│       ├── diagram-usecase.webp
+│       ├── gray-filter.webp
+│       ├── mockup-editing.webp
+│       ├── mockup-nav-adjustments.webp
+│       ├── mockup-photo-selection.webp
+│       └── thumbnail.webp
+├── index.html
+├── js
+│   ├── Audio-Player.js
+│   ├── Multiple-HTML5-Audio-Players.js
+│   └── filter.js
+├── multiple-html5-audioplayers.html
+├── music
+│   ├── chooseyourweapon.mp3
+│   ├── interlude.mp3
+│   └── scriptures.mp3
+├── oldHomePage.html
+├── portfolio
+│   ├── Cube-Anim-codePen.html
+│   ├── Cube-Anim.html
+│   ├── Kendrick-Lamar-design.html
+│   ├── PurpleCrayon.html
+│   ├── index.html
+│   ├── kinect.html
+│   ├── motion2D.html
+│   ├── personal-brand.html
+│   ├── personas-site.html
+│   └── photoEdit.html
+├── structureClone.txt
+└── svg-interface.html
+
+19 directories, 92 files
