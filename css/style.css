@@ -147,6 +147,11 @@ transition:background .1s cubic-bezier(.33,.66,.66,1)}
 
 header .header_link:hover{
 background:#01ffc7}
+header .header_link.push-right{
+  position:fixed;
+  top:20px;
+  right:7%;
+  z-index:100}
 @media (min-width:0px) and (max-width:873px){header{
 max-width:750px;
 margin:auto;
@@ -255,7 +260,10 @@ stroke-dasharray:3115px}
 .logo-wrap .logo2 {
   position: fixed;
   display: block;
-  animation: logoIn .45s ease-out .2s backwards
+  animation: logoIn .45s ease-out .2s backwards;
+  left: 45px;
+  top: 45px;
+  z-index: 100
 }
 
 .shade {
