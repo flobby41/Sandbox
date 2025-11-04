@@ -152,6 +152,83 @@ header .header_link.push-right{
   top:20px;
   right:7%;
   z-index:100}
+
+/* Mobile nav - light UI */
+.mobile-nav-toggle{
+  position: fixed;
+  right: 7%;
+  top: 28px;
+  width: 40px;
+  height: 40px;
+  background: rgba(244,244,244,.85);
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 110;
+}
+.mobile-nav-toggle .bar{
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #112c58;
+  margin: 0;
+  transition: transform .2s ease, opacity .2s ease;
+  transform-origin: 50% 50%;
+  border-radius: 2px;
+}
+.mobile-nav-toggle.is-open{ gap: 0; overflow: hidden; }
+/* Superposer parfaitement les deux barres visibles au centre */
+.mobile-nav-toggle.is-open .bar{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 22px;
+  height: 2px;
+  margin: 0;
+  transform-origin: 50% 50%;
+}
+.mobile-nav-toggle.is-open .bar:nth-child(1){
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.mobile-nav-toggle.is-open .bar:nth-child(2){ opacity: 0; }
+.mobile-nav-toggle.is-open .bar:nth-child(3){
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.mobile-menu{
+  position: fixed;
+  inset: 0;
+  background: rgba(244,244,244,.96);
+  backdrop-filter: saturate(120%) blur(8px);
+  -webkit-backdrop-filter: saturate(120%) blur(8px);
+  display: none;
+  z-index: 105;
+}
+.mobile-menu .mobile-menu_list{
+  max-width: 750px;
+  margin: 120px auto 0 auto;
+  padding: 0 1rem;
+}
+.mobile-menu .mobile-menu_list li{ margin-bottom: 18px; }
+.mobile-menu .mobile-menu_list a{
+  display: inline-block;
+  font-family: firamonobold;
+  font-size: 24px;
+  border-bottom: 3px solid #01ffc7;
+}
+
+.mobile-menu.is-open{ display: block; }
+
+/* Responsive rules */
+@media (max-width:873px){
+  /* masquer le lien portfolio fixe en mobile pour éviter les conflits */
+  header .header_link.push-right{ display:none }
+  .mobile-nav-toggle{ display:flex }
+}
 @media (min-width:0px) and (max-width:873px){header{
 max-width:750px;
 margin:auto;
